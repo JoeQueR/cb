@@ -8,6 +8,7 @@ import {environment} from '../environments/environment';
 import {LayoutModule} from '@angular/cdk/layout';
 import {MatButtonModule, MatIconModule, MatListModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 import {AboutMeModule} from './about-me/about-me.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {AboutMeModule} from './about-me/about-me.module';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    AboutMeModule
+    AboutMeModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
