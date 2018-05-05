@@ -1,10 +1,12 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {AboutMeComponent} from './about-me.component';
+import {MatCardModule} from '@angular/material';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule
   ],
   declarations: [
     AboutMeComponent
