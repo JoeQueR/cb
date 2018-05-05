@@ -7,6 +7,7 @@ import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {LayoutModule} from '@angular/cdk/layout';
 import {MatButtonModule, MatIconModule, MatListModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
+import {AboutMeModule} from './about-me/about-me.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {MatButtonModule, MatIconModule, MatListModule, MatSidenavModule, MatTool
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    AboutMeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

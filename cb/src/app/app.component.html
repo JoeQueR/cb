@@ -23,8 +23,8 @@
         *ngIf="(isHandset | async)!.matches">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Le blog Artisanal</span>
+      <span>Le Blog Artisanal</span>
     </mat-toolbar>
-    <div class="content-container"><p>Some content...</p></div>
+    <div class="content-container"><app-about-me></app-about-me></div>
   </mat-sidenav-content>
 </mat-sidenav-container>
